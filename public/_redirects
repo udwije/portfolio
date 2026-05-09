@@ -1,0 +1,9 @@
+# Cloudflare Pages redirects
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Redirect www to apex domain
+https://www.mercersecurity.com/* https://mercersecurity.com/:splat 301
+
+# Redirect HTTP to HTTPS
+http://mercersecurity.com/* https://mercersecurity.com/:splat 301
+http://www.mercersecurity.com/* https://mercersecurity.com/:splat 301
